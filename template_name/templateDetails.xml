@@ -8,7 +8,7 @@
 	<authorEmail>themehippo@gmail.com</authorEmail>
 	<authorUrl>http://www.themehippo.com</authorUrl>
 	<copyright>Copyright (C) 2013 - 2015 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later;</license>
+	<license>GNU General Public License version 2 or later.</license>
 	<t3>
 		<base>base-bs3</base>
 	</t3>

@@ -83,7 +83,7 @@ class plgSystemHippoUpdater extends JPlugin
                         $fields = array(
                             $db->quoteName('extra_query') . '=' . $db->quote($extra_query),
                             $db->quoteName('last_check_timestamp') . '=0'
-                            );
+                        );
 
                         // store update_sites with themes extra params ;)
                         $query = $db->getQuery(true)

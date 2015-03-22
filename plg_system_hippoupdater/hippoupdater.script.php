@@ -1,4 +1,5 @@
 <?php
+
     /**
      * @package      Hippo Joomla Extension Updater
      *
