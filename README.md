@@ -8,7 +8,7 @@ There is two part to use Hippo Joomla Extension Updater to work properly.
 ## Development Part
 
 - Just Download and Extract it.
-- I use t3v3 template framework thats why I use it in my plugin. You should change and edit or add your template compatible codes. Make sure that you put all your params in `$extra_query` varible on file `hippoupdater.php` file.
+- I use [T3v3 Framework](http://www.t3-framework.org/ "T3 for Joomla") thats why I use it in my plugin. You should change and edit or add your template compatible codes. Make sure that you put all your params in `$extra_query` varible on file `hippoupdater.php` file.
 
 ```php
 if (defined('T3_PLUGIN') && T3::detect() && $option == 'com_templates.style' && !empty($data->id)) {
