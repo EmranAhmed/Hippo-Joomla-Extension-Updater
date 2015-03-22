@@ -40,11 +40,13 @@ if (defined('T3_PLUGIN') && T3::detect() && $option == 'com_templates.style' && 
 - Add template parameters on `templateDetails.xml` for username / purchasecode / other data you need from user. [Understanding Joomla! templates](https://docs.joomla.org/Understanding_Joomla!_templates#Parameters "Understanding Joomla! templates")
 - Add your update server on your template you can see my example in this repo or take more knowledge from [Adding an update server](https://docs.joomla.org/J2.5:Developing_a_MVC_Component/Adding_an_update_server "Adding an update server")
 - You can use collection server or extension server as you need :smile:
+- In `downloadurl` of [template_name.xml](https://github.com/EmranAhmed/Hippo-Joomla-Extension-Updater/blob/master/joomla-update/template_name.xml#L13) I use `download.php` file to serve our updated extensions.
 
 # Your Server Part
 
-- We use `download.php` file to serve our updated extension if it requested from valid author / buyer.
+- Put `download.php` file on your server secure location or others. Here I use envato purchase code verifier to verify my envato valid author who bought my Joomla Template :grinning: 
 - You can see `joomla-update` directory in this repo.
+- There is `zips` directory you can put your latest updated template copy or any where else. Just you should change some code on `download.php` file.
 
 ## Request
 - Please donot remove my Credit line from this plugin. :blush:
