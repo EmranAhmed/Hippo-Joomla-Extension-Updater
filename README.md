@@ -8,7 +8,7 @@ There is two part to use Hippo Joomla Extension Updater to work properly.
 ## Development Part
 
 - Just Download and Extract it.
-- I use [T3v3 Framework](http://www.t3-framework.org/ "T3 for Joomla") thats why I use it in my plugin. You should change and edit or add your template compatible codes. Make sure that you put all your params in `$extra_query` varible on file `hippoupdater.php` file.
+- I use [T3v3 Framework](http://www.t3-framework.org/ "T3 for Joomla") thats why I use it in my plugin. You should change and edit or add your template compatible codes. Make sure that you put all your params in `$extra_query` varible on file `hippoupdater.php` [file](https://github.com/EmranAhmed/Hippo-Joomla-Extension-Updater/blob/master/plg_system_hippoupdater/hippoupdater.php#L49).
 
 ```php
 if (defined('T3_PLUGIN') && T3::detect() && $option == 'com_templates.style' && !empty($data->id)) {
@@ -36,10 +36,10 @@ if (defined('T3_PLUGIN') && T3::detect() && $option == 'com_templates.style' && 
                     $extra_query .='&amp;template=' . urlencode($template);
 
 ```
-- Make `.zip` file of `plg_system_hippoupdater` directory, now install it from joomla extension manager :)
+- Make `.zip` file of `plg_system_hippoupdater` directory, now install it from joomla extension manager :smile:
 - Add template parameters on `templateDetails.xml` for username / purchasecode / other data you need from user. [Understanding Joomla! templates](https://docs.joomla.org/Understanding_Joomla!_templates#Parameters "Understanding Joomla! templates")
 - Add your update server on your template you can see my example in this repo or take more knowledge from [Adding an update server](https://docs.joomla.org/J2.5:Developing_a_MVC_Component/Adding_an_update_server "Adding an update server")
-- You can use collection server or extension server as you need.
+- You can use collection server or extension server as you need :smile:
 
 # Your Server Part
 
@@ -47,5 +47,5 @@ if (defined('T3_PLUGIN') && T3::detect() && $option == 'com_templates.style' && 
 - You can see `joomla-update` directory in this repo.
 
 ## Request
-- Please donot remove my Credit line from this plugin.
+- Please donot remove my Credit line from this plugin. :blush:
 
