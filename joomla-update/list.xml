@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extensionset name="ThemeHippo Extension Directory" description="ThemeHippo Extension Directory">
+	<extension name="Hippo Template" element="hippo_template" type="template" version="1.2.0"  client_id="0" client="0" detailsurl="http://yourdomain_OR_IP/joomla-update/template_name.xml"/>
+</extensionset>

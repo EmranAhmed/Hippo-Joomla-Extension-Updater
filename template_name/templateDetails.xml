@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+	<name>template_name</name>
+	<version>1.0.0</version>
+	<creationDate>17 Feb 2014</creationDate>
+	<author>ThemeHippo.com</author>
+	<authorEmail>themehippo@gmail.com</authorEmail>
+	<authorUrl>http://www.themehippo.com</authorUrl>
+	<copyright>Copyright (C) 2013 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later;</license>
+	<t3>
+		<base>base-bs3</base>
+	</t3>
+	<description></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>thememagic.xml</filename>
+		<filename>templateInfo.php</filename>
+		<filename>templateHook.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>helper.php</filename>
+		<filename>offline.php</filename>
+		<filename>error.php</filename>
+		<folder>etc</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>less</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>tpls</folder>
+	</files>
+	<positions>
+		<position>languageswitcherload</position>
+		<position>head-search</position>
+		<position>mainnav</position>
+		<position>navhelper</position>
+		<position>breadcrumbs</position>
+		<position>off-canvas</position>
+		<position>sidebar-1</position>
+		<position>sidebar-2</position>
+		<position>mast-col</position>
+		<position>footer</position>
+		<position>features-intro-1</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-15</position>
+		<position>footer-0</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>footer-3</position>
+		<position>footer-4</position>
+		<position>footer-5</position>
+		<position>footer-6</position>
+		<position>footer-7</position>
+		<position>footer-8</position>
+		<position>footer-9</position>
+		<position>footer-10</position>
+		<position>debug</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/t3/includes/depend">
+
+			<fieldset name="hippo_template_params" label="TPL_EXTENDED_TAB_LABEL" description="TPL_EXTENDED_TAB_LABEL">
+
+				<field name="envato_username" global="1" type="text" label="Envato Username" description=""/>
+				<field name="envato_purchase_code" global="1" type="text" label="Product Purchase Code" description=""/>
+
+			</fieldset>
+			
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="collection">http://yourdomain_OR_IP/joomla-update/list.xml</server>
+		<server type="extension" priority="2" name="TEMPLATE NAME's Updates">http://yourdomain_OR_IP/joomla-update/template_name.xml</server>
+	</updateservers>
+
+</extension>

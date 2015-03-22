@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>Hippo Joomla Extension Updater</name>
+    <author>Emran Ahmed</author>
+    <creationDate>March 18, 2015</creationDate>
+    <copyright>Copyright (C) 2013 - 2015 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later;</license>
+    <authorEmail>emran.bd.08@gmail.com</authorEmail>
+    <authorUrl>http://www.themehippo.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Hippo Commercial Joomla Extension Updater to Update Joomla Extensions By Given Theme Params.</description>
+    <scriptfile>hippoupdater.script.php</scriptfile>
+    <files>
+        <filename plugin="hippoupdater">hippoupdater.php</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>
