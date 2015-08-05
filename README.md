@@ -48,6 +48,3 @@ if (defined('T3_PLUGIN') && T3::detect() && $option == 'com_templates.style' && 
 - You can see `joomla-update` directory in this repo.
 - There is `zips` directory you can put your latest updated template copy or any where else. Just you should change some code on `download.php` file.
 
-## Request
-- Please donot remove my Credit line from this plugin. :blush:
-
